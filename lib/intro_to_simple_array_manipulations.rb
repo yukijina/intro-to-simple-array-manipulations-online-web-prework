@@ -14,7 +14,7 @@ def pop_with_args(array)
   array.pop(array.length-2)
 end
 
-def using_unshift(array)
+def using_unshift(array, sring)
   array.unshift
 end
 
