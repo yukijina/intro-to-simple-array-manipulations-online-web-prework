@@ -14,4 +14,29 @@ def pop_with_args(array)
   array.pop(array.length-2)
 end
 
+def using_unshift(array)
+  array.unshift
+end
+
+def shift_with_arg(array)
+  array.shift(array[1])
+end
+
+def using_concat(arr1, arr2)
+  arr1.concat(arr2)
+end
+
+def using_insert(array, element)
+  array.insert(3)
+end
+
+def using_uniq(arrray)
+  array.uniq   
+end
+
+def using_flatten(array)
+  
+
+
+
 
